@@ -1,0 +1,56 @@
+body{
+	background:url("fondo.jpg")  ;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+}
+h1{
+	font-size: 50px;
+	color: yellow;
+	background-color: rgba(0,0,2,0.5);
+}
+h1:hover{
+	background-color: rgba(0,0,2,0.5);
+	color: green;
+	font-size: 60px;
+	position:relative;
+	display: block;
+	}
+h2{
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 30px;
+	color: yellow;
+	background-color: rgba(0,0,2,0.5);
+}
+h2:hover{
+	background-color: rgba(0,0,2,0.5);
+	color: green;
+	font-size: 40px;
+	position:relative;
+	display: block;
+	}
+.i:hover{
+	position:relative;
+	display: block;
+	-webkit-transform:rotate(720deg) scale(2.1);
+	}
+.b1{
+	background:url("fondo2.jpg")  ;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+
+}
+.galeria1{
+	background-color: yellow;
+	width: 400px;
+}
+.galeria1:hover{
+	position:relative;
+	background-color: green;
+	display: block;
+	-webkit-transform:rotate(720deg) scale(2.1);
+	}
